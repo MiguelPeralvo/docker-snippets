@@ -4,4 +4,5 @@ templates/*
 logstash/*
 logs/*
 kafka/*
+setup_variables.sh
 
