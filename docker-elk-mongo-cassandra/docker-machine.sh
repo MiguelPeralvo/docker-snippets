@@ -1,6 +1,8 @@
 docker-machine -D create \
   --driver amazonec2 \
   --amazonec2-ami ami-ce9087a4 \
+  --amazonec2-access-key $AWS_ACCESS_KEY_ID \
+  --amazonec2-secret-key $AWS_SECRET_ACCESS_KEY \
   --amazonec2-instance-type m4.large \
   --amazonec2-vpc-id $AWS_VPC_ID \
   --amazonec2-region us-east-1 \
@@ -9,4 +11,4 @@ docker-machine -D create \
   --amazonec2-ssh-keypath $SSH_KEY_PATH \
   --amazonec2-subnet-id $AWS_SUBNET_ID \
   --amazonec2-zone c \
-  test-basic-cluster-4
+  test-basic-cluster-7
