@@ -1,3 +1,7 @@
+#!/bin/sh
+
+MACHINE_NAME=${1:-test-basic-cluster8}
+
 docker-machine -D create \
   --driver amazonec2 \
   --amazonec2-ami ami-ce9087a4 \
@@ -11,4 +15,5 @@ docker-machine -D create \
   --amazonec2-ssh-keypath $SSH_KEY_PATH \
   --amazonec2-subnet-id $AWS_SUBNET_ID \
   --amazonec2-zone c \
-  test-basic-cluster-7
+  $MACHINE_NAME
+
