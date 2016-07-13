@@ -5,10 +5,10 @@ Variation of the docker-machine/docker-compose provisioning files provided by [b
 #USAGE
 
 ```
-To be filled.
+To be filled in.
 ```
 
 #EXAMPLES#
 ```
-To be filled.
+To be filled in.
 ```
