@@ -1,6 +1,6 @@
 #DESCRIPTION
 
-Variation of the docker-machine/docker-compose provisioning files provided by [bahaaldine](https://github.com/bahaaldine/scalable-big-data-architecture/tree/master/chapter7/docker).
+We provision and explore [Flux capacitors' (PipelineIO) Dockerfile|https://hub.docker.com/r/fluxcapacitor/pipeline/].
 
 #USAGE
 
